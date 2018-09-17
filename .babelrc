@@ -1,0 +1,10 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    "transform-export-extensions",
+    [
+      "styled-components",
+      {"ssr": true, "displayName": false, "preprocess": false}
+    ]
+  ]
+}
